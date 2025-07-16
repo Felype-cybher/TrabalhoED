@@ -30,6 +30,28 @@ Para a construção da interface, foram utilizadas as seguintes tecnologias de a
 - **Framer Motion:** Biblioteca para a implementação das animações.
 
 ## Como Executar o Projeto
-1. Clone o repositório.
-2. Instale as dependências com `npm install`.
-3. Rode o projeto em modo de desenvolvimento com `npm run dev`.
+
+1.  **Clone o Repositório**
+    Abra seu terminal, clone o projeto e navegue para a pasta criada.
+
+    ```bash
+    git clone https://github.com/Felype-cybher/TrabalhoED.git
+    cd TrabalhoED
+    ```
+
+2.  **Instale as Dependências**
+    Dentro da pasta do projeto, instale todos os pacotes necessários.
+
+    ```bash
+    npm install
+    ```
+
+3.  **Execute o Simulador**
+    Inicie o servidor de desenvolvimento para rodar a aplicação.
+
+    ```bash
+    npm run dev
+    ```
+
+4.  **Abra no Navegador**
+    O terminal irá exibir um endereço local. Geralmente, é algo como `http://localhost:5173`. Copie e cole este endereço no seu navegador para ver o simulador funcionando.
