@@ -10,7 +10,7 @@ Este projeto é um simulador interativo de Árvore Binária de Busca (ABB) desen
 
 ## Interface do Projeto
 
-![Demonstração da Interface](telainicial.jng)
+![Demonstração da Interface](telainicial.png)
 
 *A imagem acima mostra a interface principal da aplicação, com uma árvore de exemplo e os controles de interação.*
 
