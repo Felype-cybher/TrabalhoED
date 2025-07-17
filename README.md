@@ -4,54 +4,42 @@ Este projeto é um simulador interativo de Árvore Binária de Busca (ABB) desen
 
 ## Aluno
 - **Nome:** Felype Max Santos Silva
-- **Matrícula:** 20241ADS.CNT0020
+- **Matrícula:** 20241.ADS.CNT0020
 
 ---
 
-## Interface do Projeto
+## Como Executar o Projeto
 
-![Demonstração da Interface](telainicial.png)
+Para visualizar a aplicação finalizada da maneira mais simples (sem precisar instalar nada), siga os passos abaixo:
 
-*A imagem acima mostra a interface principal da aplicação, com uma árvore de exemplo e os controles de interação.*
+1.  **Baixe ou Clone o Repositório**
+    Faça o download dos arquivos para a sua máquina ou clone o repositório.
+
+2.  **Abra a Pasta `dist`**
+    Dentro do projeto, localize e abra a pasta chamada `dist`.
+
+3.  **Inicie com o Live Server**
+    Dentro da pasta `dist`, clique com o botão direito no arquivo `index.html` e selecione "Open with Live Server".
 
 ---
 
 ## Tecnologias Utilizadas
 
-### Tecnologia Principal
-O projeto foi desenvolvido inteiramente utilizando **JavaScript**, que compõe toda a lógica da estrutura de dados e a manipulação da interface.
+- **Linguagem Principal:** JavaScript (ES6+)
+- **Ferramentas de Apoio:** React.js, Vite, e Tailwind CSS.
 
-### Ferramentas e Bibliotecas Secundárias
-Para a construção da interface, foram utilizadas as seguintes tecnologias de apoio:
+---
 
-- **React.js:** Biblioteca para a construção da interface de usuário de forma componentizada.
-- **Vite:** Ferramenta de build moderna para um desenvolvimento rápido.
-- **Tailwind CSS:** Framework de estilização para a criação do design visual.
-- **Framer Motion:** Biblioteca para a implementação das animações.
+## Execução a Partir do Código-Fonte (Opcional)
 
-## Como Executar o Projeto
+Caso queira explorar o código-fonte e rodar o projeto em modo de desenvolvimento, você precisará ter o Node.js instalado.
 
-1.  **Clone o Repositório**
-    Abra seu terminal, clone o projeto e navegue para a pasta criada.
-
-    ```bash
-    git clone https://github.com/Felype-cybher/TrabalhoED.git
-    cd TrabalhoED
-    ```
-
-2.  **Instale as Dependências**
-    Dentro da pasta do projeto, instale todos os pacotes necessários.
-
+1.  Clone o repositório e acesse a pasta principal.
+2.  Instale as dependências:
     ```bash
     npm install
     ```
-
-3.  **Execute o Simulador**
-    Inicie o servidor de desenvolvimento para rodar a aplicação.
-
+3.  Inicie o servidor de desenvolvimento:
     ```bash
     npm run dev
     ```
-
-4.  **Abra no Navegador**
-    O terminal irá exibir um endereço local. Geralmente, é algo como `http://localhost:5173`. Copie e cole este endereço no seu navegador para ver o simulador funcionando.
